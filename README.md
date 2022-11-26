@@ -1,5 +1,5 @@
 # Infosec_tea
-(Input)
+(Input)/n
 argv[2] (select) -> encrypt : -e
                  -> decrypt : -d
 argv[3] (mode) -> cbc : cbc
@@ -33,3 +33,5 @@ Decypt mode ECB :
 (Tea Decrypt use key) Header 32Byte == orgin CBC Header 32Byte,
 (Tea Decrypt use key) Block0 ^ IV = orgin Block0
 (Tea Decrypt use key) Block1 ^ Block0(Not Decrypt) = orgin Block1 ...
+
+result : filename
