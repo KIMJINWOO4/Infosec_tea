@@ -1,5 +1,5 @@
 # Infosec_tea
-(Input)/n
+(Input)
 argv[2] (select) -> encrypt : -e
                  -> decrypt : -d
 argv[3] (mode) -> cbc : cbc
